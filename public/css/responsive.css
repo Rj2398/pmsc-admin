@@ -1,0 +1,1480 @@
+@media only screen and (min-width:1366px) and (max-width:1599px) {
+    .chart-bar-grp {
+        gap: 2.5rem;
+    }
+
+    .bar-wrp {
+        width: 40px;
+    }
+
+    .bar-wrp .bar {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    #sidebar {
+        width: 250px;
+    }
+
+    #content {
+        width: calc(100% - 250px);
+        left: 250px;
+    }
+
+    .my-subjects-itm ul {
+        & li {
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .my-subjects-itm-head h4 {
+        font-size: 16px;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .my-subjects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 11px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sub-lessons-list-in-ryt {
+        margin-left: auto;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    #sidebar.hide~#content .chart-bar-grp {
+        overflow: unset;
+        justify-content: center;
+        margin-left: 5rem;
+
+        .bar-wrp span {
+            bottom: -30px;
+        }
+    }
+
+    .chart-in-percent-grp::before {
+        left: 5%;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: auto;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .progress-grid-in h3 {
+        font-size: 35px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt span {
+        display: none;
+    }
+
+    .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin: auto 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    #sidebar.hide~#content .assessment-result.baseline-top .sub-lessons-list-in .sub-lessons-list-in-ryt {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width:1280px) and (max-width:1365px) {
+    #sidebar {
+        width: 250px;
+    }
+
+    #content {
+        width: calc(100% - 250px);
+        left: 250px;
+    }
+
+    .my-subjects-itm ul {
+        & li {
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .my-subjects-itm-head h4 {
+        font-size: 16px;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .my-subjects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 11px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sub-lessons-list-in-ryt {
+        margin-left: auto;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    .chart-bar-grp {
+        justify-content: flex-start;
+        overflow: auto;
+        margin-left: 6rem;
+    }
+
+    .chart-in-percent-grp::before {
+        left: 5%;
+    }
+
+    .bar-wrp span {
+        bottom: 0;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: auto;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .progress-grid-in h3 {
+        font-size: 35px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt span {
+        display: none;
+    }
+
+    .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin: auto 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    #sidebar.hide~#content .assessment-result.baseline-top .sub-lessons-list-in .sub-lessons-list-in-ryt {
+        margin-left: auto;
+    }
+
+    .pro-wrap .row .col-lg-8 {
+        width: 60%;
+    }
+
+    .pro-wrap .row .col-lg-4 {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1279px) {
+
+    /* SUPER-ADMIN */
+
+    .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .options-list-in {
+        input.option-fiel {
+            width: 95%;
+        }
+    }
+
+    .influ-btns {
+        justify-content: flex-start;
+    }
+
+    .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .course-management .my-subjects-head h3 {
+        a.add-cta {
+            margin-left: 0;
+        }
+    }
+
+    #content nav .bx.bx-menu {
+        left: 25px;
+        position: absolute;
+    }
+
+    .nav-toggle {
+        width: 80%;
+        flex-wrap: nowrap;
+        padding-left: 50px;
+        overflow: hidden;
+
+        a,
+        i {
+            width: max-content;
+            min-width: fit-content;
+        }
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: auto;
+        width: 30%;
+    }
+
+    .mcq-point-in {
+        &:last-child {
+            width: 25%;
+        }
+    }
+
+    .add-section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .district-src-filt-wrp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-in-grp {
+        flex-wrap: nowrap;
+    }
+
+    .district-src-filt-wrp a.add-cta {
+        width: auto;
+    }
+
+    .dis-mang-tbl {
+        & table {
+            & tr {
+                td {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .manage-sub-data {
+        h4 {
+            font-size: 22px;
+        }
+    }
+
+    .lesson-data {
+        width: 40%;
+    }
+
+    /* SUPER-ADMIN */
+    #sidebar {
+        width: 250px;
+    }
+
+    #content {
+        width: calc(100% - 250px);
+        left: 250px;
+    }
+
+    .my-subjects-itm ul {
+        & li {
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .progress-grid .row.g-0 {
+        --bs-gutter-y: 20px;
+        --bs-gutter-x: 20px;
+    }
+
+    .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .my-subjects-itm-head h4 {
+        font-size: 16px;
+    }
+
+    #sidebar.hide~#content .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 11px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .sub-lessons-list-in-ryt {
+        flex-direction: row;
+        gap: 10px;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    .chart-bar-grp {
+        justify-content: flex-start;
+        overflow: auto;
+        margin-left: 6rem;
+    }
+
+    .chart-in-percent-grp::before {
+        left: 55px;
+    }
+
+    .bar-wrp span {
+        bottom: 0;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: auto;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    #content .progress-grid .row>* {
+        width: 50%;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in {
+        align-items: center;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt span {
+        display: none;
+    }
+
+    .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin: auto 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in.drop-btn .start-quiz-cta {
+        margin: auto;
+        margin-right: 0;
+    }
+
+    #sidebar.hide~#content .assessment-result.baseline-top .sub-lessons-list-in .sub-lessons-list-in-ryt {
+        margin-left: auto;
+    }
+
+    .pro-wrap .row>* {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:912px) and (max-width:999px) {
+
+    /* SUPER-ADMIN */
+
+    .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .options-list-in {
+        input.option-fiel {
+            width: 95%;
+        }
+    }
+
+    .influ-btns {
+        justify-content: flex-start;
+    }
+
+    .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .course-management .my-subjects-head h3 {
+        a.add-cta {
+            margin-left: 0;
+        }
+    }
+
+    #content nav .bx.bx-menu {
+        left: 25px;
+        position: absolute;
+    }
+
+    .nav-toggle {
+        width: 80%;
+        flex-wrap: nowrap;
+        padding-left: 50px;
+        overflow: hidden;
+
+        a,
+        i {
+            width: max-content;
+            min-width: fit-content;
+        }
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .mcq-point-in {
+        &:last-child {
+            width: 25%;
+        }
+    }
+
+    .add-section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .district-src-filt-wrp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-in-grp {
+        flex-wrap: nowrap;
+    }
+
+    .district-src-filt-wrp a.add-cta {
+        width: auto;
+    }
+
+    .dis-mang-tbl {
+        & table {
+            & tr {
+                td {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    /* SUPER-ADMIN */
+
+    .my-subjects-itm ul {
+        & li {
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .progress-grid .row.g-0 {
+        --bs-gutter-y: 20px;
+    }
+
+    .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .my-subjects-itm-head h4 {
+        font-size: 16px;
+    }
+
+    #sidebar.hide~#content .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 13px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .sub-lessons-list-in-ryt {
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    .chart-bar-grp {
+        justify-content: flex-start;
+        overflow: auto;
+        margin-left: 6rem;
+    }
+
+    .chart-in-percent-grp::before {
+        left: 55px;
+    }
+
+    .bar-wrp span {
+        bottom: 0;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .progress-grid .row.g-0 {
+        --bs-gutter-x: 20px;
+    }
+
+    #sidebar.hide~#content .progress-grid .row>* {
+        width: 50%;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    .sub-lessons-list-in.drop-btn {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt span {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:911px) {
+
+    /* SUPER-ADMIN */
+
+    .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .options-list-in {
+        input.option-fiel {
+            width: 85%;
+        }
+    }
+
+    .influ-btns {
+        justify-content: flex-start;
+    }
+
+    .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .course-management .my-subjects-head h3 {
+        a.add-cta {
+            margin-left: 0;
+        }
+    }
+
+    #content nav .bx.bx-menu {
+        left: 25px;
+        position: absolute;
+    }
+
+    .nav-toggle {
+        width: 80%;
+        flex-wrap: nowrap;
+        padding-left: 50px;
+        overflow: hidden;
+
+        a,
+        i {
+            width: max-content;
+            min-width: fit-content;
+        }
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .mcq-point-in {
+        &:last-child {
+            width: 25%;
+        }
+    }
+
+    .add-section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .district-src-filt-wrp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-in-grp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-wrp a.add-cta {
+        width: 100%;
+    }
+
+    .dis-mang-tbl {
+        & table {
+            & tr {
+                td {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    /* SUPER-ADMIN */
+
+    .progress-grid .row.g-0 {
+        --bs-gutter-y: 20px;
+    }
+
+    .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 15px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .sub-lessons-list-in-ryt {
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    .chart-bar-grp {
+        justify-content: flex-start;
+        overflow: auto;
+        margin-left: 6rem;
+    }
+
+    .chart-in-percent-grp::before {
+        left: 55px;
+    }
+
+    .bar-wrp span {
+        bottom: 0;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .progress-grid .row.g-0 {
+        --bs-gutter-x: 20px;
+    }
+
+    #sidebar.hide~#content .progress-grid .row>* {
+        width: 50%;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .personal-info form {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:799px) {
+
+    /* SUPER-ADMIN */
+
+    .course-lvl-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .options-list-in {
+        input.option-fiel {
+            width: 85%;
+        }
+    }
+
+    .influ-btns {
+        justify-content: flex-start;
+    }
+
+    .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .course-management .my-subjects-head h3 {
+        a.add-cta {
+            margin-left: 0;
+        }
+    }
+
+    #content nav .bx.bx-menu {
+        left: 25px;
+        position: absolute;
+    }
+
+    .nav-toggle {
+        width: 80%;
+        flex-wrap: nowrap;
+        padding-left: 50px;
+        overflow: hidden;
+
+        a,
+        i {
+            width: max-content;
+            min-width: fit-content;
+        }
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .mcq-point-in {
+        &:last-child {
+            width: 25%;
+        }
+    }
+
+    .add-section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .district-src-filt-wrp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-in-grp {
+        flex-wrap: wrap;
+    }
+
+    .district-src-filt-wrp a.add-cta {
+        width: 100%;
+    }
+
+    .dis-mang-tbl {
+        & table {
+            & tr {
+                td {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    /* SUPER-ADMIN */
+
+    .progress-grid .row.g-0 {
+        --bs-gutter-y: 20px;
+    }
+
+    .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .my-subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-cta {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .baseline-ass-q-a {
+        & label {
+            padding: 15px 20px;
+            font-size: 14px;
+
+            input[type="radio"] {
+                width: 15px;
+                height: 10px;
+            }
+        }
+    }
+
+    .sub-detail-top {
+        h1 {
+            align-items: center;
+        }
+    }
+
+    #sidebar.hide~#content .sub-detail-wrap .sub-detail-top .sub-pro {
+        align-items: center;
+    }
+
+    .sub-pro {
+        align-items: flex-start;
+
+        .progress {
+            width: 50%;
+        }
+    }
+
+    .sub-detail-top ul {
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & li:last-child {
+            margin-left: 0;
+        }
+    }
+
+    .lesson-num-ico {
+        gap: 10px;
+    }
+
+    .sub-lessons-list-in {
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .sub-lessons-list-in-ryt {
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .less-details-in .baseline-ass-q-a.b-line label input[type="radio"] {
+        width: 10px;
+    }
+
+    .less-details-in h2 {
+        font-size: 20px;
+    }
+
+    .less-details-in video {
+        height: auto;
+    }
+
+    .less-details-in img {
+        height: auto;
+    }
+
+    .chart-bar-grp {
+        justify-content: flex-start;
+        overflow: auto;
+        margin-left: 6rem;
+    }
+
+    .chart-in-percent-grp::before {
+        left: 55px;
+    }
+
+    .bar-wrp span {
+        bottom: 0;
+    }
+
+    .top-head {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chart-wrap ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .my-subjects .top-head {
+        flex-wrap: wrap;
+        gap: 20px 0px;
+    }
+
+    .my-subjects .top-head select {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects table {
+        width: max-content;
+        min-width: 100%;
+    }
+
+    .my-subjects .top-head a.details-cta {
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .progress-grid .row.g-0 {
+        --bs-gutter-x: 20px;
+    }
+
+    #sidebar.hide~#content .progress-grid .row>* {
+        width: 50%;
+    }
+
+    .personal-info {
+        margin-bottom: 25px;
+    }
+
+    .personal-info form {
+        grid-template-columns: 1fr;
+    }
+
+    #sidebar.hide~#content .personal-info form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.chart-bar-grp::-webkit-scrollbar {
+    height: 10px;
+}
+
+.chart-bar-grp::-webkit-scrollbar-track {
+    background: #D9D9D9;
+}
+
+.chart-bar-grp::-webkit-scrollbar-thumb {
+    background: #4126A8;
+    border-radius: 0px;
+}
