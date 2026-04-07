@@ -1,5 +1,5 @@
 // export const baseURL = "https://pmsclmsadmin.tgastaging.com/api/";
-export const baseURL = "/api";
+export const baseURL = "api/";
 
 //
 export const KEYS = {
